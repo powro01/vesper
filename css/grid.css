@@ -1,0 +1,48 @@
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .row .col {
+    width: 100%;
+    padding: 3%; }
+  .row__s {
+    flex-basis: 100%; }
+    .row__s--one .col {
+      width: 100%; }
+    .row__s--two .col {
+      width: 50%; }
+    .row__s--three .col {
+      width: 33.33%; }
+    .row__s--four .col {
+      width: 25%; }
+  .row__m {
+    flex-basis: 100%; }
+    .row__m .col {
+      width: 100%; }
+  .row__l {
+    flex-basis: 100%; }
+    .row__l .col {
+      width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .row__m {
+      flex-basis: 100%; }
+      .row__m--one .col {
+        width: 100%; }
+      .row__m--two .col {
+        width: 50%; }
+      .row__m--three .col {
+        width: 33.33%; }
+      .row__m--four .col {
+        width: 25%; } }
+  @media only screen and (min-width: 1100px) {
+    .row__l {
+      flex-basis: 100%; }
+      .row__l--one .col {
+        width: 100%; }
+      .row__l--two .col {
+        width: 50%; }
+      .row__l--three .col {
+        width: 33.33%; }
+      .row__l--four .col {
+        width: 25%; } }
